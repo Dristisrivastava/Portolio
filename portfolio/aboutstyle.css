@@ -1,0 +1,248 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+  .navbar{
+    display: flex;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 2.6%;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+a {
+    color: white;
+    position: relative;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  .home{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    opacity: 0.53;
+}
+.text{
+    color:white;
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.head{
+    display: flex;
+    margin: 50px;
+    color: white;
+    justify-content: center;
+}
+.skills{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 100px;
+  color: #fff;
+}
+.html{
+    position: relative;
+}
+.skill-img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+.skill-name{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+.skill-level{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background:#ff4f4f28;
+    border: 10px solid #ff4f4f;
+    color: #ff4f4f;
+}
+.css{
+    position: relative;
+}
+.skill-levelcss{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background:#4fa7ff28;
+    border: 10px solid #4faaff;
+    color: #4faaff;
+}
+.js{
+    position: relative;
+}
+.skill-levelJS{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background:#d0ff4f28;
+    border: 10px solid #f9de2a;
+    color: #f9de2a;
+}
+.sql{
+    position: relative;
+}
+.skill-levelsql{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background:#4fa7ff28;
+    border: 10px solid #1b6bb6;
+    color: #2176c5;
+}
+.java{
+    position: relative;
+}
+.skill-leveljava{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background:#ff4f4f28;
+    border: 10px solid #ff4f4f;
+    color: #ff4f4f;
+}
+.cpp{
+    position:relative;
+}
+.skill-levelcpp{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background:#4fa7ff28;
+    border: 10px solid #1b6bb6;
+    color: #2176c5;
+}
+.education{
+    margin-bottom: 2%;
+}
+.one{
+    display: flex;
+    margin-left: 22%;
+}
+.school{
+    margin-right: 1%;
+    width: 350px;
+    height: 75px;
+    background:rgb(255, 136, 0);
+}
+.line{
+    width: 5px;
+    height: 75px;
+    background: hsl(228, 14%, 93%);
+    border-radius: 10px;
+}
+.onec{
+    display: flex;
+    margin-left: 50.5%;
+}
+.college{
+    margin-left: 1.5%;
+    width: 350px;
+    height: 75px;
+    background: #1b4fb6;
+}
+.linec{
+    margin-top: -5%;
+    width: 5px;
+    height: 150px;
+    background: hsl(228, 14%, 93%);
+    border-radius: 10px;
+}
+.hs{
+    text-align: center;
+    background-color:rgb(255, 136, 0) ;
+    color: white;
+}
+.ps{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(255, 136, 0) ;
+}
+.hc{
+    
+    text-align: center;
+    background-color: #1b4fb6 ;
+    color: white;
+}
+.pc{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1b4fb6;
+}
